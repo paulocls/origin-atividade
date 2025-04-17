@@ -36,3 +36,4 @@ git stash
 11. Para criar um marcador para identificar as versões:
 git tag -a <versão> -m "comentário"
 
+adicionar uma linha
