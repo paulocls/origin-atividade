@@ -1,0 +1,38 @@
+Nome: Paulo Cesar Lima da Silva
+
+Comandos
+1. Criação do diretório
+mkdir unidade_3
+2. Criação dos arquivos: texto1, texto2, texto3
+3. Fazendo o commit no repostório git
+git init
+git add .
+git commit -m "tarefa 3"
+git branch -M main
+git remote add origin https://github.com/paulocls/origin-atividade.git
+git push -u origin main
+
+4. Após a alteração o arquivo, usou-se o comando:
+git commit -am "alteração do arquivo"
+
+5. Para visualizar o historio de commit
+git log --oneline
+
+6. Para acessar o histórico de commit
+git checkout <hash>
+
+7. Para reverter a alteração 
+git revert <hash>
+
+8. Para resetar o commit, mas mantendo a alteração do arquivo:
+git reset --soft <hash>
+
+9. Para listar toda movimentação do repositório:
+git reflog
+
+10. Para salvar temporariamente um commit:
+git stash
+
+11. Para criar um marcador para identificar as versões:
+git tag -a <versão> -m "comentário"
+
